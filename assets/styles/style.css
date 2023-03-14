@@ -1,0 +1,272 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-colum {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+
+.home {
+    height: 900px;
+    background-image: url(../img/The-Last-Of-Us-HBO-Wallpaper-13\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>figure>img {
+    height: 144px;
+    width: 254px;
+}
+
+nav {
+    width: 70%;
+}
+
+nav>ul {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul>li>a {
+    color: var(--color-grey-1);
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+ul>li>a:hover {
+    color: var(--color-grey-2);
+    font-weight: 600;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-family: Iceland;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 89px;
+    color: var(--color-grey-2);
+}
+
+main>p {
+    font-family: Actor;
+    font-size: 27px;
+    line-height: 32px;
+    color: var(--text-color-1);
+}
+
+
+.divButtons{
+    display: flex;
+}
+
+button {
+    height: 46px;
+    width: 180px;
+    font-family: Iceland;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin: 10px;
+    color: var(--color-grey-2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button>span{
+    border: 1px solid white;
+    padding: 5px;
+    width: 90%;
+}
+
+.ativo {
+    background-color: var(--color-secondary);
+}
+
+.ativo:hover {
+    border: 2px solid var(--color-grey-1);
+}
+
+.inativo {
+    background-color: var(--color-grey-1);
+}
+
+.inativo:hover {
+    border: 2px solid var(--color-grey-2);
+}
+
+main>section {
+    margin-top: 100px;
+}
+
+.sectionH3 {
+    height: 65px;
+    width: 336px;
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: var(--color-grey-2);
+    display: block;
+}
+
+
+section>ul {
+    width: 800px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.posRelative {
+    position: relative;
+
+}
+
+.absolute {
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    color: var(--color-grey-2);
+}
+
+.episodes {
+    background-image: url(../img/episodes.svg);
+    height: 900px;
+}
+
+.divEpisodes {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    
+}
+
+.post {
+    height: 550px;
+    width: 50%;
+    margin-top: 80px;
+    padding: 5px;
+    text-align: justify;
+    color: var(--color-grey-2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Actor';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+color: #C7C7C7;
+}
+
+.ulEpisodes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    height: 750px;
+}
+
+.ulEpisodes::-webkit-scrollbar {
+    background: rgba(142, 0, 0, 0.38);
+    border-radius: 12px;
+    border-radius: 20px;
+    border: 3px solid black;
+
+}
+
+.liEpisodes {
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    height: 194px;
+    padding: 33px;
+}
+
+.imgEpisode {
+    width: 250px;
+}
+
+
+.divLiEpisodes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--text-color-1);
+}
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(180deg, #000000 0%, #950202 289.06%);
+}
+
+footer>div {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer>div>figure>{
+    width: 140px;
+}
+
+footer>div>div{
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-top: 50px;
+}
+
+footer>div>div>h2,h3{
+    color:var(--color-grey-2);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+footer>div>div>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
